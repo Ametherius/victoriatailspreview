@@ -103,6 +103,8 @@ html, body {
 .btn-primary:hover {
     background-color: #2980b9;
     border-color: #2980b9;
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
 }
 
 .btn-secondary {
@@ -113,6 +115,8 @@ html, body {
 .btn-secondary:hover {
     background-color: #2980b9;
     border-color: #2980b9;
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
 }
 
 /* Hero Section */
@@ -459,6 +463,27 @@ html, body {
 
 .pricing-section .fa-2x {
     color: white;
+}
+
+.cta-section {
+    padding: var(--spacing-lg);
+}
+
+/* Calendar Section */
+.calendar-section {
+    padding: var(--spacing-lg);
+    margin-top: 100px;
+}
+
+.calendar-section h2 {
+    color: var(--primary-color);
+    font-size: var(--font-size-xxl);
+}
+
+.appointment-calendar {
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
     /* Footer Styles */
